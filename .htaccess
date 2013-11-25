@@ -1,0 +1,52 @@
+# Remember to enable display_errors on development environments only.
+<IfModule mod_php5.c>
+    php_value display_errors 0
+    php_flag register_globals off
+</IfModule>
+
+RewriteEngine on
+
+# If know that mod_rewrite is enabled, but you are still getting mod_rewrite errors,
+# uncomment the line below and replace "/" with your base directory.
+# RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^admin/ - [C]
+RewriteRule .* admin/index.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php
+
+<FilesMatch "\.(php|ini)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+<Files index.php>
+Allow from all
+</Files>
+
+# Uncomment the lines below in order to enable caching of some files via Apache (after a finished site has gone live)
+<IfModule mod_expires.c>
+  <FilesMatch "\.(js|ico|gif|jpg|png|css|xml)$">
+       ExpiresActive on
+       ExpiresDefault "access plus 2 hours"
+   </FilesMatch>
+</IfModule>
+<ifModule mod_deflate.c>
+SetOutputFilter DEFLATE
+    <FilesMatch ".(js|ico|css|html|htm|php|xml|swf)$">
+    SetOutputFilter DEFLATE
+    </FilesMatch>
+</ifModule>
+
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl|swf|xml)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_exclude mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>

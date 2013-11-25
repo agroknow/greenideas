@@ -1,0 +1,1075 @@
+# Translation for the Exhibit Builder plugin for Omeka.
+# Copyright (C) 2011 Roy Rosenzweig Center for History and New Media
+# This file is distributed under the same license as the Omeka package.
+# 
+# Translators:
+# elkoko <elenakokoliou@agroknow.gr>, 2013
+# stauros gkinis <gkista@yahoo.gr>, 2012
+# Stoitsis Giannis <>, 2012
+# valia <valia.7t@gmail.com>, 2012
+# Vassiliki_Markaki_EA <vmarkaki@ea.gr>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Pathway Authoring Tool\n"
+"Report-Msgid-Bugs-To: http://github.com/omeka/plugin-ExhibitBuilder/issues\n"
+"POT-Creation-Date: 2012-01-09 21:49-0500\n"
+"PO-Revision-Date: 2013-08-29 07:36+0000\n"
+"Last-Translator: elkoko <elenakokoliou@agroknow.gr>\n"
+"Language-Team: Greek (Greece) (http://www.transifex.com/projects/p/pathway-authoring-tool/language/el_GR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Gallery Full Left"
+msgstr "Συλλογή φωτογραφιών Στοιχισμένη Αριστερά"
+
+msgid ""
+"Displays a gallery of 8 thumbnails, with a wider left column for 1 full-size"
+" image and text block."
+msgstr "Εμφανίζει μια συλλογή από 8 μικρογραφίες, με μια ευρύτερη αριστερή στήλη για 1 πλήρους μεγέθους εικόνας και κειμένου."
+
+msgid "Gallery Full Right"
+msgstr "Συλλογή Φωτογραφιών Στοιχισμένη Δεξιά"
+
+msgid ""
+"Displays a gallery of 8 thumbnails, with a wider right column for 1 full-"
+"size image and text block."
+msgstr "Εμφανίζει μια συλλογή από 8 μικρογραφίες, με μια ευρύτερη δεξιά στήλη για 1 πλήρους μεγέθους εικόνα και κείμενο."
+
+msgid "Gallery Thumbnails Text Bottom"
+msgstr "Συλλογή Mικρογραφιών στο Κάτω Mέρος του Kειμένου"
+
+msgid "Displays a block of text below a gallery of up to 12 items."
+msgstr "Εμφανίζει ένα τμήμα κειμένου κάτω από μια συλλογή μέχρι 12 αντικειμένων."
+
+msgid "Gallery Thumbnails Text Top"
+msgstr "Συλλογή Mικρογραφιών στο Πάνω Μέρος του Κειμένου"
+
+msgid "Displays a block of text above a gallery of up to 12 items."
+msgstr "Εμφανίζει ένα τμήμα κειμένου πάνω από μια συλλογή φωτογραφιών μέχρι 12 αντικειμένων."
+
+msgid "Gallery Thumbnails"
+msgstr "Συλλογή μικρογραφιών"
+
+msgid "Displays a gallery of up to 16 items."
+msgstr "Εμφανίζει μια συλλογή μέχρι 16 αντικείμενα."
+
+msgid "Image List Left Thumbs"
+msgstr "Λίστα Μικρογραφίες Αριστερά "
+
+msgid ""
+"Displays up to 8 thumbnails on the left with up to 8 text blocks on the "
+"right."
+msgstr "Εμφανίζει έως και 8 μικρογραφίες στα αριστερά με έως και 8 μπλοκ κειμένου στα δεξιά."
+
+msgid "Image List Left"
+msgstr "Λίστα από εικόνες Αριστερά"
+
+msgid ""
+"Displays up to 8 full-size images on the left with up to 8 text blocks on "
+"the right."
+msgstr "Εμφανίζει έως και 8 πλήρους μεγέθους εικόνες στα αριστερά με έως και 8 μπλοκ κειμένου στα αριστερά."
+
+msgid "Image List Right Thumbs"
+msgstr "Λίστα μικρογραφίες Δεξιά"
+
+msgid ""
+"Displays up to 8 thumbnails on the right with up to 8 text blocks on the "
+"left."
+msgstr "Εμφανίζει έως και 8 μικρογραφίες στα δεξιά με έως και 8 μπλοκ κειμένου στα αριστερά."
+
+msgid "Image List Right"
+msgstr "Λίστα από εικόνες Δεξιά"
+
+msgid ""
+"Displays up to 8 full-size images on the right with up to 8 text blocks on "
+"the left."
+msgstr "Εμφανίζει έως και 8 πλήρους μεγέθους εικόνες στα δεξιά με έως και 8 μπλοκ κειμένου στα αριστερά."
+
+msgid "Text Image Left"
+msgstr "Κείμενο Εικόνα Αριστερά"
+
+msgid "Displays a full page of text, with a full-size image floated left."
+msgstr "Εμφανίζει μια ολόκληρη σελίδα κειμένου, με μια εικόνα πλήρους μεγέθους αριστερά."
+
+msgid "Text Image Right"
+msgstr "Κείμενο Εικόνα Δεξιά"
+
+msgid "Displays a full page of text, with a full-size image floated right."
+msgstr "Εμφανίζει μια ολόκληρη σελίδα κειμένου, με μια εικόνα πλήρους μεγέθους δεξιά."
+
+msgid "Text"
+msgstr "Κείμενο"
+
+msgid "Displays a full page of text without items."
+msgstr "Εμφανίζει μια πλήρης σελίδα κειμένου χωρίς αντικείμενα."
+
+#: config_form.php:3
+msgid "Use Exhibit Browse Page For Homepage?"
+msgstr "Χρήση της σελίδας περιήγησης εκθεμάτων ώς Αρχική?"
+
+#: config_form.php:9
+msgid "If checked, Omeka will use the exhibit browse page for the homepage."
+msgstr "Εάν είναι επιλεγμένο, το Omeka θα χρησιμοποιήσει την σελίδα περιήγησης εκθεμάτων ως Αρχική."
+
+#: config_form.php:14
+msgid "Sorting Exhibits"
+msgstr "Ταξινόμηση Εκθεμάτων"
+
+#: config_form.php:19
+msgid ""
+"The default method by which you wish to sort the listing of exhibits on the "
+"exhibits/browse page. Default is 'Date Added'."
+msgstr "Η προεπιλεγμένη μέθοδος με την οποία θέλετε να ταξινομήσετε την λίστα των εκθεμάτων για τα εκθέματα / περιηγηση σελίδας. Η προεπιλογή είναι \"Ημερομηνία Καταχώρησης»."
+
+#: controllers/ExhibitsController.php:87
+msgid "This item is not used within this exhibit."
+msgstr "Αυτό το αντικείμενο δεν χρησιμοποιείται μέσα στο έκθεμα."
+
+#: controllers/ExhibitsController.php:254
+msgid "You must specifically select a theme in order to configure it."
+msgstr "Πρέπει να επιλέξετε συγκεκριμένα ένα θέμα για να το διαμορφώσετε."
+
+#: functions.php:212 functions.php:244
+#: views/admin/exhibits/exhibit-metadata-form.php:87
+#: views/admin/exhibits/page-content-form.php:87
+#: views/admin/exhibits/page-metadata-form.php:48
+#: views/admin/exhibits/section-metadata-form.php:43
+msgid "Exhibits"
+msgstr "Εκθέματα"
+
+#: functions.php:215 functions.php:231 views/admin/exhibits/browse.php:2
+#: views/public/exhibits/browse.php:2
+msgid "Browse Exhibits"
+msgstr "Περιήγηση Εκθεμάτων"
+
+#: functions.php:216
+msgid "Create an Exhibit"
+msgstr "Δημιουργία ενός Εκθέματος"
+
+#: functions.php:218
+msgid "Create and manage exhibits that display items from the archive."
+msgstr "Δημιουργία και διαχείριση εκθεμάτων που εμφανίζουν αντικείμενα από το αρχείο."
+
+#: functions.php:440
+msgid "Search by Exhibit"
+msgstr "Αναζήτηση ανά Έκθεμα"
+
+#: helpers/ExhibitFunctions.php:219
+msgid "There is no item attached."
+msgstr "Δεν υπάρχει κανένα συνημμένο αντικείμενο."
+
+#: helpers/ExhibitFunctions.php:221
+#: views/admin/exhibits/page-content-form.php:57
+msgid "Attach an Item"
+msgstr "Τοποθετήστε ένα αντικείμενο"
+
+#: helpers/ExhibitFunctions.php:272
+msgid "Caption"
+msgstr "Λεζάντα"
+
+#: helpers/ExhibitFunctions.php:441
+msgid "Featured Exhibit"
+msgstr "Προτεινόμενα εκθέματα"
+
+#: helpers/ExhibitFunctions.php:446
+msgid "You have no featured exhibits."
+msgstr "Δεν έχετε προτεινόμενα εκθέματα."
+
+#: helpers/ExhibitPageFunctions.php:155
+msgid "Next Page &rarr;"
+msgstr "Επόμενη σελιδα &rarr;"
+
+#: helpers/ExhibitPageFunctions.php:189
+msgid "&larr; Previous Page"
+msgstr "&larr; Προηγούμενη σελίδα"
+
+#: models/Exhibit.php:38
+msgid "An exhibit must be given a title."
+msgstr "Στο Έκθεμα πρέπει να δοθεί ένας τίτλος."
+
+#: models/Exhibit.php:42
+msgid "The title for an exhibit must be 255 characters or less."
+msgstr "Ο τίτλος ενός Εκθέματος πρέπει να είναι το πολύ 255 χαρακτήρες."
+
+#: models/Exhibit.php:46
+msgid "The name of your theme must be 30 characters or less."
+msgstr "Το όνομα του θέματος πρέπει να είναι το πολύ 30 χαρακτήρες."
+
+#: models/Exhibit.php:66
+msgid "Exhibits must be given a valid slug."
+msgstr "Τα Έκθεματα πρέπει να έχουν έγκυρο slug."
+
+#: models/Exhibit.php:67 models/ExhibitPage.php:31
+#: models/ExhibitSection.php:33
+msgid "A slug must be 30 characters or less."
+msgstr "Το slug πρέπει να είναι το πολύ 30 χαρακτήρες."
+
+#: models/Exhibit.php:68
+msgid ""
+"Your URL slug is already in use by another exhibit.  Please choose another."
+msgstr "Το URL slug χρησιμοποιείται από ένα άλλο έκθεμα. Παρακαλώ διαλέξτε κάποιο άλλο."
+
+#: models/ExhibitPage.php:30
+msgid "A slug must be given for each page of an exhibit."
+msgstr "Ένα slug πρέπει να δοθεί για κάθε σελίδα του εκθέματος."
+
+#: models/ExhibitPage.php:32
+msgid ""
+"This page slug has already been used in this section.  Please modify the "
+"slug so that it is unique."
+msgstr "Το slug της σελίδας έχει ξανα χρησιμοποιειθεί στο ίδιο τμήμα. Παρακαλώ τροποποιήσετε το slug, έτσι ώστε να είναι μοναδικό."
+
+#: models/ExhibitPage.php:47
+msgid "A layout must be provided for each exhibit page."
+msgstr "Μία διάταξη πρέπει δοθεί σε σε κάθε σελίδα του εκθέματος."
+
+#: models/ExhibitPage.php:51
+msgid "Exhibit pages must be given a title."
+msgstr "Οι σελίδες ενός εκθέματος πρέπει να έχουν ένα τίτλο."
+
+#: models/ExhibitSection.php:32
+msgid "A slug must be given for each section of an exhibit."
+msgstr "Ένα slug πρέπει να δοθεί για κάθε τμήμα του εκθέματος."
+
+#: models/ExhibitSection.php:34
+msgid ""
+"This section slug has already been used in this exhibit.  Please modify the "
+"slug so that it is unique."
+msgstr "Το slug του τμήματος χρησιμοποιείται ήδη σε αυτό το έκθεμα. Παρακαλώ τροποποιήστε το slug έτσι ώστε να είναι μοναδικό."
+
+#: models/ExhibitSection.php:40
+msgid "Sections of an exhibit must be given a title."
+msgstr "Το κάθε τμήμα του εκθέματος πρέπει να έχει ένα τίτλο."
+
+#: views/admin/exhibits/browse.php:7
+#: views/admin/exhibits/exhibit-metadata-form.php:5
+msgid "Add Exhibit"
+msgstr "Προσθήκη Εκθέματος."
+
+#: views/admin/exhibits/browse.php:13
+msgid "There are no exhibits yet."
+msgstr "Δεν υπάρχει κάποιο έκθεμα ακόμα."
+
+#: views/admin/exhibits/browse.php:16
+msgid "Add an exhibit."
+msgstr "Προσθήκη ενός Εκθέματος."
+
+#: views/admin/exhibits/browse.php:35
+#: views/admin/exhibits/exhibit-metadata-form.php:125
+msgid "Theme"
+msgstr "Θέμα"
+
+#: views/admin/exhibits/browse.php:39
+msgid "Delete?"
+msgstr "Διαγραφή?"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:3
+#, php-format
+msgid "Edit Exhibit: \"%s\""
+msgstr "Επεξεργασία Εκθέματος: \"%s\""
+
+#: views/admin/exhibits/exhibit-metadata-form.php:5
+msgid "Edit Exhibit"
+msgstr "Επεξεργασία Εκθέματος"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:22
+msgid "Are you sure you want to delete this section?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το τμήμα;"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:36
+#: views/admin/exhibits/section-metadata-form.php:18
+msgid "Are you sure you want to delete this page?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη σελίδα;"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:96
+msgid "Exhibit Metadata"
+msgstr "Μεταδεδομένα Εκθέματος"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:102
+#: views/admin/exhibits/page-metadata-form.php:59
+#: views/admin/exhibits/section-metadata-form.php:58
+msgid "Slug"
+msgstr "Slug"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:103
+#: views/admin/exhibits/page-metadata-form.php:60
+#: views/admin/exhibits/section-metadata-form.php:59
+msgid "No spaces or special characters allowed."
+msgstr "Τα κενά και οι ειδικοί χαρακτήρες δεν επιτρέπονται."
+
+#: views/admin/exhibits/exhibit-metadata-form.php:107
+#: views/public/exhibits/summary.php:9
+msgid "Credits"
+msgstr "Συντελεστές"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:126
+msgid "Current Public Theme"
+msgstr "Τρέχων Δημόσιο Θέμα"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:133
+msgid "Sections and Pages"
+msgstr "Τμήματα και σελίδες"
+
+#: views/admin/exhibits/exhibit-metadata-form.php:136
+msgid "There are no sections."
+msgstr "Δεν υπάρχουν τμήματα."
+
+#: views/admin/exhibits/exhibit-metadata-form.php:138
+msgid ""
+"To reorder sections or pages, click and drag the section or page up or down "
+"to the preferred location."
+msgstr "Για να αλλάξετε τη σειρά στα τμήματα ή στις σελίδες, κάντε κλικ και σύρετε το τμήμα ή τη σελίδα πάνω ή προς τα κάτω για να την προτιμώμενη θέση."
+
+#: views/admin/exhibits/exhibit-metadata-form.php:145
+#: views/admin/exhibits/section-metadata-form.php:5
+msgid "Add Section"
+msgstr "Προσθήκη τμήματος"
+
+#: views/admin/exhibits/items.php:1
+msgid "Show Search Form"
+msgstr "Προβολή φόρμας αναζήτησης"
+
+#: views/admin/exhibits/items.php:21
+#, php-format
+msgid "There are no items to choose from.  Please refine your search or %s."
+msgstr "Δεν υπάρχουν αντικείμενα για να επιλέξετε. Παρακαλούμε να βελτιώσετε την αναζήτησή σας ή %s."
+
+#: views/admin/exhibits/items.php:21
+msgid "add some items"
+msgstr "προσθέστε μερικά αντικείμενα"
+
+#: views/admin/exhibits/page-content-form.php:2
+#, php-format
+msgid "Edit Page Content: \"%s\""
+msgstr "Επεξεργασία Διάταξη σελίδας: \"%s\""
+
+#: views/admin/exhibits/page-content-form.php:25
+msgid "Remove This Item"
+msgstr "Αφαίρεση αυτού του αντικειμένου"
+
+#: views/admin/exhibits/page-content-form.php:60
+msgid "Attach Selected Item"
+msgstr "Προσθήκη επιλεγμένου αντικειμένου"
+
+#: views/admin/exhibits/page-content-form.php:100
+msgid "Page Layout"
+msgstr "Διάταξη σελίδας"
+
+#: views/admin/exhibits/page-content-form.php:112
+#: views/admin/exhibits/page-metadata-form.php:2
+msgid "Edit Page"
+msgstr "Επεξεργασία σελίδας"
+
+#: views/admin/exhibits/page-content-form.php:116
+msgid "Page Content"
+msgstr "Περιεχόμενο σελίδας"
+
+#: views/admin/exhibits/page-content-form.php:124
+msgid "Save and Return to Section"
+msgstr "Αποθήκευση και επιστροφή στο Τμήμα"
+
+#: views/admin/exhibits/page-content-form.php:125
+msgid "Save and Add Another Page"
+msgstr "Αποθήκευση και προσθήκη νέας σελίδας"
+
+#: views/admin/exhibits/page-metadata-form.php:2
+#: views/admin/exhibits/section-metadata-form.php:77
+msgid "Add Page"
+msgstr "Προσθήκη σελίδας"
+
+#: views/admin/exhibits/page-metadata-form.php:55
+msgid "Page Metadata"
+msgstr "Μεταδεδομένα σελίδας"
+
+#: views/admin/exhibits/page-metadata-form.php:65
+msgid "Layouts"
+msgstr "Διατάξεις"
+
+#: views/admin/exhibits/page-metadata-form.php:72
+msgid "Choose a layout by selecting a thumbnail on the right."
+msgstr "Επιλέξτε μία διάταξη διαλέγοντας μία μικροαγραφία από δεξιά."
+
+#: views/admin/exhibits/section-list.php:10
+#: views/admin/exhibits/section-metadata-form.php:5
+msgid "Edit Section"
+msgstr "Επεξεργασία Τμήματος"
+
+#: views/admin/exhibits/section-list.php:11
+msgid "Delete Section"
+msgstr "Διαγραφή Τμήματος"
+
+#: views/admin/exhibits/section-list.php:25
+msgid "Add a Page"
+msgstr "Προσθήκη σελίδας"
+
+#: views/admin/exhibits/section-metadata-form.php:3
+#, php-format
+msgid "Edit Section: \"%s\""
+msgstr "Επεξεργασία τμήματος: \"%s\""
+
+#: views/admin/exhibits/section-metadata-form.php:55
+msgid "Section Metadata"
+msgstr "Μεταδεδομένα του τμήματος"
+
+#: views/admin/exhibits/section-metadata-form.php:64
+msgid "Pages in this Section"
+msgstr "Σελίδες σε αυτό το τμήμα"
+
+#: views/admin/exhibits/section-metadata-form.php:66
+msgid ""
+"To reorder pages, click and drag the page thumbnail up or down to the "
+"preferred location."
+msgstr "Για να αλλάξετε τη σειρά των σελίδων, κάντε κλικ και σύρετε τη μικρογραφία της σελίδας πάνω ή κάτω στη θέση που επιθυμείτε."
+
+#: views/admin/exhibits/section-metadata-form.php:68
+msgid "There are no pages in this section."
+msgstr "Δεν υπάρχουν σελίδες σε αυτό το τμήμα."
+
+#: views/admin/exhibits/tags.php:2 views/public/exhibits/tags.php:2
+msgid "Browse Exhibits by Tag"
+msgstr "Περιήγηση Εκθεμάτων από Tag"
+
+#: views/admin/exhibits/tags.php:14
+msgid "There are no tags to display. You must first tag some exhibits."
+msgstr "Δεν υπάρχουν tags. Πρέπει πρώτα να βάλετε tag σε κάποιο έκθεμα."
+
+#: views/public/exhibits/browse.php:30
+msgid "There are no exhibits available yet."
+msgstr "Δεν υπάρχει έκθεμα διαθέσιμο ακόμα."
+
+#: views/public/exhibits/summary.php:14
+msgid "Sections"
+msgstr "Τμήματα"
+
+#: views/shared/exhibit_layouts/gallery-full-left/form.php:4
+#: views/shared/exhibit_layouts/gallery-full-right/form.php:4
+msgid "Primary"
+msgstr "Πρωτεύον"
+
+#: views/shared/exhibit_layouts/gallery-full-left/form.php:11
+#: views/shared/exhibit_layouts/gallery-full-right/form.php:12
+msgid "Secondary"
+msgstr "Δευτερεύον"
+
+#: admingeneral!
+msgid "Pathways"
+msgstr "Εκπαιδευτικά Μονοπάτια"
+
+#: admingeneral!
+msgid "Browse Pathways"
+msgstr "Περιήγηση στα Εκπαιδευτικά Μονοπάτια"
+
+#: admingeneral!
+msgid "Create a Pathway"
+msgstr "Δημιουργία Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid " Add Pathway"
+msgstr "Προσθήκη Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid "Add a Pathway"
+msgstr "Προσθέστε ένα Εκπαιδευτικό Μονοπάτι"
+
+#: admingeneral!
+msgid "Create and manage Pathways"
+msgstr "Δημιουργήστε και διαχειριστείτε Εκπαιδευτικά Μονοπάτια"
+
+#: admingeneral!
+msgid "Search by Pathway"
+msgstr "Αναζήτηση με βάση το Εκπαιδευτικό Μονοπάτι"
+
+#: admingeneral!
+msgid "Attach a Resource"
+msgstr "Συνδέστε ένα Αντικείμενο"
+
+#: admingeneral!
+msgid "Click to attach a resource from your collection."
+msgstr "Επιλέξτε για να επισυνάψετε ένα αντικείμενο από τη συλλογή σας."
+
+#: admingeneral!
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#: admingeneral!
+msgid "Pre-visit Phase"
+msgstr "Φάση προ-επίσκεψης"
+
+#: admingeneral!
+msgid "Visit Phase"
+msgstr "Φάση επίσκεψης"
+
+#: admingeneral!
+msgid "Post-visit Phase"
+msgstr "Φάση μετά την επίσκεψη"
+
+#: admingeneral!
+msgid "Introductory section and preparatory"
+msgstr "Εισαγωγικός τομέας και προκαταρτική φάση"
+
+#: admingeneral!
+msgid "Engagement"
+msgstr "Εμπλοκή"
+
+#: admingeneral!
+msgid "Game"
+msgstr "Παιχνίδι"
+
+#: admingeneral!
+msgid "Reflection"
+msgstr "Ανασκόπηση"
+
+#: admingeneral!
+msgid "Guidance for preparation"
+msgstr "Καθοδήγηση για προετοιμασία"
+
+#: admingeneral!
+msgid "Connection with curriculum"
+msgstr "Σύνδεση με τη διδακτέα ύλη"
+
+#: admingeneral!
+msgid "Provoke curiosity"
+msgstr "Πρόκληση της περιέργειας"
+
+#: admingeneral!
+msgid "Define questions from current knowledge"
+msgstr "Προσδιορισμός ερωτήσεων με βάση την υφιστάμενη γνώση "
+
+#: admingeneral!
+msgid "Propose preliminary explanations or hypotheses"
+msgstr "Πρόταση προκαταρκτικών εξηγήσεων ή υπόθεσης "
+
+#: admingeneral!
+msgid "Plan and conduct simple investigation"
+msgstr "Σχεδιασμός και υλοποίηση απλής διερεύνησης "
+
+#: admingeneral!
+msgid "Gather evidence from observation"
+msgstr "Συλλογή αποδεικτικών στοιχείων μέσω παρατήρησης "
+
+#: admingeneral!
+msgid "Explanation based on evidence"
+msgstr "Εξήγηση βασισμένη στα αποδεικτικά στοιχεία "
+
+#: admingeneral!
+msgid "Consider other explanations"
+msgstr "Θεώρηση άλλων εξηγήσεων"
+
+#: admingeneral!
+msgid "Communicate explanation"
+msgstr "Έκφραση εξηγήσεων "
+
+#: admingeneral!
+msgid "Follow-up activities and materials"
+msgstr "Δραστηριότητες και υλικά μεταπαρακολούθησης "
+
+#: admingeneral!
+msgid "Sustainable contact"
+msgstr "Στοιχεία επαφής"
+
+#: admingeneral!
+msgid "Curiosity Provocation"
+msgstr "Πρόκληση περιέργειας "
+
+#: admingeneral!
+msgid "Abstract Conceptulization"
+msgstr "Αφηρημένη Αντίληψη Εννοιών"
+
+#: admingeneral!
+msgid "Active Experimentation1"
+msgstr "Ενεργός Πειραματισμός 1"
+
+#: admingeneral!
+msgid "Active Experimentation2"
+msgstr "Ενεργός Πειραματισμός 2"
+
+#: admingeneral!
+msgid "Active Experimentation3"
+msgstr "Ενεργός Πειραματισμός 3"
+
+#: admingeneral!
+msgid "Active Experimentation4"
+msgstr "Ενεργός Πειραματισμός 4"
+
+#: admingeneral!
+msgid "Active Experimentation5"
+msgstr "Ενεργός Πειραματισμός 5"
+
+#: admingeneral!
+msgid "Active Experimentation6"
+msgstr "Ενεργός Πειραματισμός 6"
+
+#: admingeneral!
+msgid "Active Experimentation7"
+msgstr "Ενεργός Πειραματισμός 7"
+
+#: admingeneral!
+msgid "Active Experimentation8"
+msgstr "Ενεργός Πειραματισμός 8"
+
+#: admingeneral!
+msgid "Active Experimentation9"
+msgstr "Ενεργός Πειραματισμός 9"
+
+#: admingeneral!
+msgid "Active Experimentation10"
+msgstr "Ενεργός Πειραματισμός 10"
+
+#: admingeneral!
+msgid "Active Experimentation11"
+msgstr "Ενεργός Πειραματισμός 11"
+
+#: admingeneral!
+msgid "Active Experimentation12"
+msgstr "Ενεργός Πειραματισμός 12"
+
+#: admingeneral!
+msgid "Active Experimentation13"
+msgstr "Ενεργός Πειραματισμός 13"
+
+#: admingeneral!
+msgid "Active Experimentation14"
+msgstr "Ενεργός Πειραματισμός 14"
+
+#: admingeneral!
+msgid "Active Experimentation15"
+msgstr "Ενεργός Πειραματισμός 15"
+
+#: admingeneral!
+msgid "Reflection-COMMUNICATE EXPLANATION"
+msgstr "Ανασκόπηση-ΔΙΑΔΟΣΗ ΕΠΕΞΗΓΗΣΗΣ"
+
+#: admingeneral!
+msgid "Last Modified:"
+msgstr "Τελευταία Τροποποίηση:"
+
+#: admingeneral!
+msgid "Supporting Materials"
+msgstr "Υποστηρικτικό Υλικό"
+
+#: admingeneral!
+msgid "Add your tag"
+msgstr "Προσθέστε ετικέτα "
+
+#: admingeneral!
+msgid "Given Metadata"
+msgstr "Δοθέντα Μεταδεδομένα"
+
+#: admingeneral!
+msgid "There are no pathways yet."
+msgstr "Δεν υπάρχουν εκπαιδευτικά μονοπάτια ακόμα."
+
+#: admingeneral!
+msgid "Educational Pathways"
+msgstr "Εκπαιδευτικά Μονοπάτια"
+
+#: admingeneral!
+msgid "GO NOW!"
+msgstr "ΜΕΤΑΒΕΙΤΕ ΤΩΡΑ!"
+
+#: admingeneral!
+msgid "Creator"
+msgstr "Δημιουργός"
+
+#: admingeneral!
+msgid "You are here"
+msgstr "Είστε εδώ"
+
+#: admingeneral!
+msgid "Edit Pathway: %s"
+msgstr "Επεξεργασία Εκπαιδευτικού Μονοπατιού: %s"
+
+#: admingeneral!
+msgid "Edit Pathway"
+msgstr "Επεξεργασία Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid "Preview Pathway"
+msgstr "Προεπισκόπηση Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid "Quality Criteria for Natural Europe Pathways"
+msgstr "Ποιοτικά κριτήρια για τα Εκπαιδευτικά Μονοπάτια του Natural Europe"
+
+#: admingeneral!
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: admingeneral!
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: admingeneral!
+msgid "Pathway Title"
+msgstr "Τίτλος Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid "no spaces or special characters"
+msgstr "χωρίς κενά ή ειδικούς χαρακτήρες"
+
+#: admingeneral!
+msgid "Pathway ready for validation"
+msgstr "Εκπαιδευτικό Μονοπάτι έτοιμο για επικύρωση"
+
+#: admingeneral!
+msgid "Pathway Metadata"
+msgstr "Μεταδεδομένα Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid "Save and Finish"
+msgstr "Αποθήκευση και Τέλος"
+
+#: admingeneral!
+msgid "Save Changes"
+msgstr "Αποθηκεύστε τις αλλαγές"
+
+#: admingeneral!
+msgid "Select Pathway Template"
+msgstr "Επιλέξτε Πρότυπο Εκπαιδευτικού Μονοπατιού"
+
+#: admingeneral!
+msgid "There are no sections"
+msgstr "Δεν υπάρχουν ενότητες"
+
+#: admingeneral!
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: admingeneral!
+msgid "Click to add Supporting Materials"
+msgstr "Επιλέξτε για να προσθέσετε Υποστηρικτικό Υλικό"
+
+#: admingeneral!
+msgid ""
+"Resources that will be added here serve as <br> complementary to the items "
+"attached on the pathway"
+msgstr "Τα αντικείμενα που θα προστεθούν εδώ θα χρησιμεύσουν ως <br> συμπληρωματικά στα στοιχεία που είναι συνδεδεμένα στο εκπαιδευτικό μονοπάτι "
+
+#: admingeneral!
+msgid "Select an object to add"
+msgstr "Επιλέξτε ένα αντικείμενο για προσθήκη"
+
+#: admingeneral!
+msgid "All Items: "
+msgstr "Όλα τα στοιχεία:"
+
+#: admingeneral!
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#: admingeneral!
+msgid "No items"
+msgstr "Κανένα στοιχείο"
+
+#: admingeneral - metadata editor!
+msgid "Insert new image to your collection"
+msgstr "Εισαγωγή νέας εικόνας στη συλλογή σας"
+
+#: admingeneral!
+msgid "Guided Pathway"
+msgstr "Καθοδηγούμενο Εκπαιδευτικό μονοπάτι"
+
+#: admingeneral!
+msgid "Game-Based Pathway"
+msgstr "Εκπαιδευτικό μονοπάτι βασισμένο στο παιχνίδι"
+
+#: admingeneral!
+msgid "Interactive Installation Pathway"
+msgstr "Εκπαιδευτικό μονοπάτι διαδραστικής εγκατάστασης"
+
+#: admingeneral!
+msgid "AUTHORING"
+msgstr "ΣΥΓΓΡΑΦΙΚΟ"
+
+#: admingeneral!
+msgid "DESCRIBE YOUR PATHWAY"
+msgstr "ΠΕΡΙΓΡΑΨΤΕ ΤΟ ΕΚΠΑΙΔΕΥΤΙΚΟ ΣΑΣ ΜΟΝΟΠΑΤΙ"
+
+#: admingeneral!
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: admingeneral!
+msgid ""
+"Add one of your resources as supporting material for this page. Resources "
+"that will be added here serve as complementary to the items attached on the "
+"pathway"
+msgstr "Προσθέστε ένα από τα αντικείμενα σας ως υποστηρικτικό υλικό γι'αυτή τη σελίδα. Αντικείμενα που θα προστεθούν εδώ χρησιμεύουν ως συμπληρωματικά στα αντικείμενα που επισυνάπτονται στο εκπαιδευτικό μονοπάτι."
+
+#: admingeneral!
+msgid "Add supporting material"
+msgstr "Προσθήκη υποστηρικτικού υλικού"
+
+#: admingeneral!
+msgid "Insert Supporting Material"
+msgstr "Εισαγωγή υποστηρικτικού υλικού"
+
+#: admingeneral!
+msgid "Insert new file to your collection"
+msgstr "Εισαγωγή νέου αρχείου στη συλλογή σας"
+
+#: admingeneral!
+msgid "Insert new hyperlink to your collection"
+msgstr "Εισαγωγή νέου συνδέσμου στη συλλογή σας"
+
+#: admingeneral!
+msgid ""
+"Insert image: the image files added here will appear within the corpus of "
+"your pathway."
+msgstr "Εισαγωγή εικόνας: τα αρχεία εικόνων που θα προστεθούν εδώ θα εμφανιστούν μέσα στο σώμα του εκπαιδευτικού σας μονοπατιού."
+
+#: admingeneral!
+msgid "Insert Selected Image"
+msgstr "Εισαγωγή επιλεγμένης εικόνας"
+
+#: admingeneral!
+msgid ""
+"Important info: When you are inserting a new external resource please make "
+"sure you saved all the changes in your pathway."
+msgstr "Σημαντική πληροφορία: Όταν εισάγετε ένα νέο εξωτερικό αντικείμενο παρακαλώ βεβαιωθείτε ότι σώσατε όλες τις αλλαγές στο εκπαιδευτικό σας μονοπάτι."
+
+#: admingeneral!
+msgid ""
+"Inserting a new external resource will reload your pathway page and all the "
+"unsaved changes will be lost."
+msgstr "Εισάγοντας ένα νέο εξωτερικό αντικείμενο θα επαναφορτώσετε τη σελίδα του εκπαιδευτικού σας μονοπατιού και όλες οι μη αποθηκευμένες αλλαγές θα χαθούν."
+
+#: admingeneral!
+msgid "Introductory Section"
+msgstr "Εισαγωγικό τμήμα"
+
+#: admingeneral!
+msgid "Educational"
+msgstr "Εκπαιδευτικός"
+
+#: admingeneral!
+msgid "Assignments"
+msgstr "Αναθέσεις"
+
+#: admingeneral!
+msgid "Screen 1"
+msgstr "Οθόνη 1"
+
+#: admingeneral!
+msgid "Screen 2"
+msgstr "Οθόνη 2"
+
+#: admingeneral!
+msgid "Screen 3"
+msgstr "Οθόνη 3"
+
+#: admingeneral!
+msgid "Screen 4"
+msgstr "Οθόνη 4"
+
+#: admingeneral!
+msgid "Screen 5"
+msgstr "Οθόνη 5"
+
+#: admingeneral!
+msgid "Screen 6"
+msgstr "Οθόνη 6"
+
+#: admingeneral!
+msgid "Screen 7"
+msgstr "Οθόνη 7"
+
+#: admingeneral!
+msgid "Screen 8"
+msgstr "Οθόνη 8"
+
+#: admingeneral!
+msgid "Screen 9"
+msgstr "Οθόνη 9"
+
+#: admingeneral!
+msgid "Screen 10"
+msgstr "Οθόνη 10"
+
+#: admingeneral!
+msgid "Screen 11"
+msgstr "Οθόνη 11"
+
+#: admingeneral!
+msgid "Screen 12"
+msgstr "Οθόνη 12"
+
+#: admingeneral!
+msgid "Screen 13"
+msgstr "Οθόνη 13"
+
+#: admingeneral!
+msgid "Screen 14"
+msgstr "Οθόνη 14"
+
+#: admingeneral!
+msgid "Screen 15"
+msgstr "Οθόνη 15"
+
+#: admingeneral!
+msgid ""
+"The Pathway area provides a list of the Pathways available on the users "
+"account."
+msgstr "Η περιοχή του Εκπαιδευτικού μονοπατιού παρέχει διαθέσιμη στο λογαριασμό των χρηστών μια λίστα των Εκπαιδευτικών μονοπατιών."
+
+#: admingeneral!
+msgid "To read more about each Pathway, click on the Title link."
+msgstr "Για να διαβάσετε περισσότερα για κάθε εκπαιδευτικό μονοπάτι, κάντε κλικ στο σύνδεσμο του τίτλου."
+
+#: admingeneral!
+msgid "Also you can add a new Pathway, edit and delete Pathways."
+msgstr "Επίσης μπορείτε να προσθέσετε ένα καινούργιο Εκπαιδευτικό μονοπάτι, να επεξεργαστείτε και να διαγράψετε Εκπαιδευτικά μονοπάτια."
+
+#: admingeneral!
+msgid "Guided pathway: Addressed to school communities"
+msgstr "Καθοδηγούμενο Εκπαιδευτικό μονοπάτι: Απευθύνεται στις σχολικές κοινότητες"
+
+#: admingeneral!
+msgid ""
+"Open Pathway: Addressed to lifelong learners and especially families"
+msgstr "Ανοιχτή Εκπαιδευτική Διαδρομή: Απευθύνεται στους εκπαιδευόμενους δια βίου μάθησης και ειδικά στις οικογένειες "
+
+#: admingeneral!
+msgid ""
+"Interactive Installation Pathway: To use them in Interactive Installation "
+"Tool"
+msgstr "Εκπαιδευτικό μονοπάτι διαδραστικής εγκατάστασης: Για να τα χρησιμοποιήσετε σε Διαδραστικό Εργαλείο Εγκατάστασης"
+
+#: admingeneral!
+msgid "Make your pathway public"
+msgstr "Κάντε το Εκπαιδευτικό σας μονοπάτι δημόσιο"
+
+#: admingeneral!
+msgid "This is the area where you can create your pathway"
+msgstr "Αυτή είναι η περιοχή που μπορείτε να δημιουργήσετε το εκπαιδευτικό σας μονοπάτι"
+
+#: admingeneral!
+msgid "Save and remain in the same page"
+msgstr "Αποθήκευση και παραμονή στην ίδια σελίδα"
+
+#: admingeneral!
+msgid "Save and go back to the main page of pathway"
+msgstr "Αποθήκευση και επιστροφή στη κύρια σελίδα του εκπαιδευτικού μονοπατιού"
+
+#: admingeneral!
+msgid "Save the changes and remain to the main page of pathway"
+msgstr "Αποθήκευση των αλλαγών και παραμονή στη κύρια σελίδα του εκπαιδευτικού μονοπατιού"
+
+#: admingeneral!
+msgid "Save and go out to the list pathway"
+msgstr "Αποθήκευση και έξοδος από τη λίστα του εκπαιδευτικού μονοπατιού"
+
+#: admingeneral!
+msgid ""
+"Provide information about your pathway and make it searchable through the "
+"finders."
+msgstr "Δώστε πληροφορίες για το εκπαιδευτικό σας μονοπάτι και κάντε το αναζητήσιμο μέσω των ανιχνευτών. "
+
+#: admingeneral!
+msgid ""
+"Info about any necessary arrangements needed by the interested teacher "
+"before launching the activities described and/or proposed in the following "
+"sections."
+msgstr "Πληροφορίες σχετικά με τις αναγκαίες ρυθμίσεις που απαιτούνται από τον ενδιαφερόμενο δάσκαλο πριν από την έναρξη των δραστηριοτήτων που περιγράφονται ή / και προτείνονται στις παρακάτω ενότητες."
+
+#: admingeneral!
+msgid ""
+"Give the relevant education curriculum which inform in a direct way about "
+"the prerequisite knowledge of the students to participate in the educational"
+" pathway."
+msgstr "Δώστε το σχετικό αναλυτικό πρόγραμμα εκπαίδευσης που ενημερώνει με άμεσο τρόπο για την γνώση που οι μαθητές προϋποθέτει να έχουν για να συμμετάσχουν στο εκπαιδευτικό μονοπάτι."
+
+#: admingeneral!
+msgid ""
+"Describe the means and material that would be used inside the classroom for "
+"attracting the student's attention."
+msgstr "Περιγράψτε τα μέσα και το υλικό που θα χρησιμοποιηθεί στη τάξη για να προσελκύσει την προσοχή των μαθητών."
+
+#: admingeneral!
+msgid ""
+"Format questions that will be presented to the students for further "
+"enhancement of their engagement in thinking about the target subject matter "
+"based on their existing knowledge."
+msgstr "Σχηματίστε ερωτήσεις που θα παρουσιαστούν στους μαθητές για την περαιτέρω βελτίωση της εμπλοκής τους στον τρόπο σκέψης σχετικά με το θέμα-στόχο βασισμένες στις υπάρχουσες γνώσεις τους."
+
+#: admingeneral!
+msgid ""
+"Describe the way that students can be encouraged to propose possible "
+"explanations to the questions emerged from the previous activity."
+msgstr "Περιγράψτε τον τρόπο με τον οποίο οι μαθητές μπορούν να ενθαρρύνονται να προτείνουν πιθανές εξηγήσεις στα ερωτήματα που προέκυψαν από την προηγούμενη δραστηριότητα."
+
+#: admingeneral!
+msgid ""
+"Describe the means and material that will be used for facilitating the "
+"students to focus on evidence as a source of answers to scientific "
+"questions."
+msgstr "Περιγράψτε τα μέσα και τα υλικά που θα χρησιμοποιηθούν για να διευκολύνουν τους μαθητές να επικεντρωθούν σε στοιχεία ως πηγή απαντήσεων σε επιστημονικά ερωτήματα."
+
+#: admingeneral!
+msgid ""
+"Locate the appropriate resource and/or the actual exhibit. Give details "
+"about the way that students will gather evidence according to the questions "
+"posed in the previous stages."
+msgstr "Εντοπίστε το κατάλληλο αντικείμενο ή / και το πραγματικό έκθεμα. Δώστε λεπτομέρειες σχετικά με τον τρόπο με τον οποίο οι μαθητές θα συγκεντρώσουν αποδεικτικά στοιχεία σύμφωνα με τα ερωτήματα που τέθηκαν στα προηγούμενα στάδια."
+
+#: admingeneral!
+msgid "Explain the phases of the educational programme."
+msgstr "Εξηγήστε τις φάσεις του εκπαιδευτικού προγράμματος."
+
+#: admingeneral!
+msgid "Explain how the students groups will evaluate their own explanations."
+msgstr "Εξηγήστε πώς οι ομάδες των μαθητών θα αξιολογήσουν τις δικές τους εξηγήσεις."
+
+#: admingeneral!
+msgid ""
+"Details on how to produce a report with the findings of students, presenting"
+" and justifying its proposed explanations to other groups, and to the "
+"teacher."
+msgstr "Λεπτομέρειες για το πώς να παράγουν μια έκθεση με τα ευρήματα των μαθητών, παρουσιάζοντας και αιτιολογώντας τις προτεινόμενες εξηγήσεις τους σε άλλες ομάδες, και στο δάσκαλο."
+
+#: admingeneral!
+msgid "Describe the context of the follow-up activities and materials"
+msgstr "Περιγράψτε το πλαίσιο των δραστηριοτήτων μεταπαρακολούθησης και των υλικών"
+
+#: admingeneral!
+msgid ""
+"Give the contact info of the persons and the organization that are related "
+"with this pathway."
+msgstr "Δώστε τα στοιχεία επικοινωνίας των προσώπων και του οργανισμού που σχετίζονται με αυτό το εκπαιδευτικό μονοπάτι."
+
+#: admingeneral!
+msgid ""
+"Give a basic description about the educational pathway. The means that will "
+"be used, the age range etc."
+msgstr "Δώστε μια βασική περιγραφή του εκπαιδευτικού μονοπατιού. Τα μέσα που θα χρησιμοποιηθούν, το εύρος ηλικίας κτλ."
+
+#: admingeneral!
+msgid ""
+"Set the activity context in a appropriate way in order to attract the "
+"attention of participants."
+msgstr "Ρυθμίστε το πλαίσιο δραστηριότητας με κατάλληλο τρόπο προκειμένου να προσελκύσετε την προσοχή των συμμετεχόντων."
+
+#: admingeneral!
+msgid ""
+"Give guidelines on how the participants will fill in for example the "
+"questionnaires."
+msgstr "Δώστε οδηγίες για το πώς οι συμμετέχοντες θα συμπληρώσουν για παράδειγμα τα ερωτηματολόγια."
+
+#: admingeneral!
+msgid ""
+"Give the differ kinds of games like crosswords, multiple choice questions "
+"etc. Explain how to play with them, in groups or individually."
+msgstr "Δώστε τα διαφορετικά είδη των παιχνιδιών όπως σταυρόλεξα, ερωτήσεις πολλαπλής επιλογής, κλπ. Εξηγήστε πώς να παίξουν με αυτά, σε ομάδες ή ατομικά."
+
+#: admingeneral!
+msgid ""
+"Evaluate the results of the games, congratulate the winner and explain to "
+"him what his present is and how he can receive it."
+msgstr "Αξιολογείστε τα αποτελέσματα των παιχνιδιών, συγχαρείτε το νικητή και εξηγήστε του ποιο είναι το δώρο του και πώς μπορεί να το παραλάβει."
+
+#: admingeneral!
+msgid "Open Pathway"
+msgstr "Ανοιχτή Εκπαιδευτική Διαδρομή"

@@ -1,0 +1,104 @@
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:22:58 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:22:58 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:23:10 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:23:10 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:23:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:23:25 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:27:07 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:27:07 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:27:58 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:27:58 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:28:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:28:13 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  XMLReader::open(http://localhost/greenideas/archive/xmlvoc/ne_lre.xml): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  XMLReader::open(): Unable to open source data in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\plugins\ExhibitBuilder\controllers\ExhibitsController.php on line 510
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  XMLReader::read(): Load Data before trying to read in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 1946
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:29:44 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[12-Sep-2013 11:29:44 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[16-Oct-2013 13:45:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 08:11:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 08:57:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 12:06:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[17-Oct-2013 12:06:59 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[17-Oct-2013 12:06:59 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:06:59 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:06:59 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:06:59 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[17-Oct-2013 12:07:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[17-Oct-2013 12:07:05 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[17-Oct-2013 12:07:05 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:07:05 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:07:05 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:07:05 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[17-Oct-2013 12:09:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[17-Oct-2013 12:09:21 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[17-Oct-2013 12:09:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:09:21 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:09:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:09:21 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[17-Oct-2013 12:09:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2004
+[17-Oct-2013 12:09:26 UTC] PHP Warning:  array_multisort(): Argument #1 is expected to be an array or a sort flag in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2010
+[17-Oct-2013 12:09:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:09:26 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:09:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2011
+[17-Oct-2013 12:09:26 UTC] PHP Fatal error:  Maximum function nesting level of '200' reached, aborting! in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\helpers\Functions.php on line 2090
+[17-Oct-2013 12:11:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 12:29:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 13:02:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 14:32:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[17-Oct-2013 14:45:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[11-Nov-2013 13:40:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
+[11-Nov-2013 13:56:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files (x86)\EasyPHP-12.1\www\greenideas\application\models\Item.php on line 208
