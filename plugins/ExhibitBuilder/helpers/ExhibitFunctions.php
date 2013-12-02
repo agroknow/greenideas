@@ -1179,6 +1179,32 @@ function sections_return_from_template($template) {
             array('Cultivate Ideas', 3, 'cultivate-ideas', 1),
             array('Blossom & Thrive', 4, 'blossom-thrive', 1)
         );
+    } elseif ($template == 11) {
+        $sections = array(
+            array('Title', 1, 'to-begin-with', 1),
+            array('Job profile', 2, 'job-profile', 1),
+            array('Relevant competences', 3, 'relevant-competences', 1),
+            array('Training Opportunities', 4, 'training-opportunities', 1),
+            array('User stories/ scenarios', 5, 'user-scenarios', 1)
+        );
+    } elseif ($template == 12) {
+        $sections = array(
+            array('Core Idea', 1, 'to-begin-with', 1),
+            array('Material', 2, 'material', 1),
+            array('design', 3, 'design', 1)
+        );
+    } elseif ($template == 13) {
+        $sections = array(
+            array('Core Ideas', 1, 'to-begin-with', 1),
+            array('Design', 2, 'design', 1),
+            array('Implementation and Outcomes', 3, 'implementation-and-outcomes', 1)
+        );
+    } elseif ($template == 14) {
+        $sections = array(
+            array('Ideas', 1, 'to-begin-with', 1),
+            array('Design', 2, 'design', 1),
+            array('Presentation', 3, 'presentation', 1)
+        );
     }
     
 
@@ -1514,6 +1540,69 @@ function create_section_pages($v, $last_section_id, $sectionPageSql, $sectionPag
             $db->exec($sectionPageTextSql);
 
             $db->exec($sectionPageSql, array($last_section_id, '2', 'Future Steps'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 11) {
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Title of the persona'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'job-profile') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Job profile description of the persona'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'relevant-competences') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Relevant competences that persona should possess'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'training-opportunities') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Relevant training opportunities for this persona & profile'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'user-scenarios') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Ηow the persona could use the GFSP learning infrastructure to find these opportunities'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 12) {
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Core Idea'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'material') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Material'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'design') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Design'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 13) {
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Core Ideas'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'design') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Design'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'implementation-and-outcomes') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Implementation'));
+            $db->exec($sectionPageTextSql);
+            
+            $db->exec($sectionPageSql, array($last_section_id, '2', 'Outcomes'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 14) {
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Ideas for Data Product'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'design') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Design of Data Product'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'presentation') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Presentation of Data Product'));
             $db->exec($sectionPageTextSql);
         }
     }
