@@ -797,9 +797,10 @@ function preview_elements_from_datatype($datageneral4, $datageneral5, $metadatar
 
         foreach ($datageneral5 as $datageneral5) {
             $output.= '<' . $machine_name . '>' . "\n";
-            $output.= '<![CDATA['.$datageneral5['value'].']]>';
+            $datageneral5['value'] = str_replace('&amp;', '&', $datageneral5['value']);
+            $output.= '<![CDATA[' . $datageneral5['value'] . ']]>';
             $output.= '</' . $machine_name . '>' . "\n";
-            //$output.=xmlformat($datageneral5['value'].'asdasdasd', $machine_name, '', $indent);
+            //$output.=xmlformat($datageneral5['value'], $machine_name, '', $indent);
         }
     }
 
