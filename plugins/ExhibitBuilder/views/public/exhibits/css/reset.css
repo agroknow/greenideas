@@ -44,3 +44,10 @@ q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 }
+/* Enable styling in description from users in sections */
+.secdesc ol{
+    list-style: inside;
+}
+.secdesc ul{
+    list-style: inside;
+}
