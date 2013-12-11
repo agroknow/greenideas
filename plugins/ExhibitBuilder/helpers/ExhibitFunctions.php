@@ -1185,17 +1185,17 @@ function sections_return_from_template($template) {
             array('Job profile', 2, 'job-profile', 1),
             array('Relevant competences', 3, 'relevant-competences', 1),
             array('Training Opportunities', 4, 'training-opportunities', 1),
-            array('User stories/ scenarios', 5, 'user-scenarios', 1)
+            array('User stories/scenarios', 5, 'user-scenarios', 1)
         );
     } elseif ($template == 12) {
         $sections = array(
             array('Core Idea', 1, 'to-begin-with', 1),
             array('Material', 2, 'material', 1),
-            array('design', 3, 'design', 1)
+            array('Design', 3, 'design', 1)
         );
     } elseif ($template == 13) {
         $sections = array(
-            array('Core Ideas', 1, 'to-begin-with', 1),
+            array('Core Idea', 1, 'to-begin-with', 1),
             array('Design', 2, 'design', 1),
             array('Implementation and Outcomes', 3, 'implementation-and-outcomes', 1)
         );
