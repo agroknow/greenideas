@@ -1578,7 +1578,7 @@ function create_section_pages($v, $last_section_id, $sectionPageSql, $sectionPag
         }
     } elseif ($template == 13) {
         if ($v[2] == 'to-begin-with') {
-            $db->exec($sectionPageSql, array($last_section_id, '1', 'Core Ideas'));
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Core Idea'));
             $db->exec($sectionPageTextSql);
         }
         if ($v[2] == 'design') {
