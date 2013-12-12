@@ -46,7 +46,7 @@ blockquote, q {
 }
 /* Enable styling in description from users in sections */
 .secdesc ol{
-    list-style: inside;
+    list-style: decimal inside;
 }
 .secdesc ul{
     list-style: inside;
