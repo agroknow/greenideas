@@ -47,7 +47,7 @@
         </section>
         
         <section class="inner clearfix footer">
-            <a href="http://www.greenideasproject.org/"><img  width="600px" src="../../../plugins/ExhibitBuilder/views/public/exhibits/images/logo.png" /></a>
+            <a href="http://www.greenideasproject.org/"><img  width="600px" src="<?php echo uri(''); ?>plugins/ExhibitBuilder/views/public/exhibits/images/logo.png" /></a>
         </section>
     </body>
 </html>
