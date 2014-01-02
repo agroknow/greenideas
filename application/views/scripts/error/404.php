@@ -41,8 +41,11 @@
         </nav>
         <section class="inner info clearfix secwrapper" style=" position: relative; padding-top: 50px;">
             <article class="secarticle">
-            <h2><?php echo $pageTitle; ?></h2>
-            <p><?php echo __('%s is not a valid URL.', html_escape($badUri)); ?></p>
+                <h2><?php echo $pageTitle; ?></h2>
+                <p><?php echo __('Sorry for the inconvenience but this is a not valid url.'); ?>
+                    <br>
+                        <?php echo __(' %s', html_escape($badUri)); ?>  
+                </p>
             </article>
         </section>
         
