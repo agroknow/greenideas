@@ -3,8 +3,8 @@
     <?php admin_plugin_footer(); ?>
     <div id="page-footer" style="height:64px; width: 600px;">
 		<ul id="nav-footer-menu">
-		   <a href="http://www.natural-europe.eu/" target="_blank"><?php echo __('Natural Europe Project website'); ?></a> - <a href="http://omeka.org" id="omeka-logo"><?php echo __('Powered by Omeka'); ?></a> | <?php echo __('Version %s', OMEKA_VERSION); ?><br>
-           <?php echo __('Natural Europe Pathway Authoring and Metadata Tool.  &copy; 2011'); ?>
+		   <a href="javascript:void(0);" target="_blank"><?php echo __('Green Ideas Project website'); ?></a> - <a style="font-size: 8px; font-weight: normal;" href='http://www.bitpixels.com/' target="_blank">Website thumbnails provided by BitPixels</a><br>
+           <?php echo __('Green Ideas Pathway Authoring and Metadata Tool.  &copy; 2013'); ?>
         </ul><!--end nav-footer-menu ul-->
 
 
