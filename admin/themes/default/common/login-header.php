@@ -21,4 +21,4 @@
             <div id="site-title"><?php echo link_to_admin_home_page(); ?></div>
         </div>
         <div id="content" style="width:1000px;">
-<iframe width="640" height="392" style="float:left;" src="//www.youtube.com/embed/QFXBLqZve3M" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="392" style="float:left;" src="//www.youtube.com/embed/GVNfrvyFKpg" frameborder="0" allowfullscreen></iframe>

@@ -27,7 +27,7 @@ if(isset($_POST['insert'])){ //if click add to pathway
 <input type="submit" class="button" value="<?php echo __('Search'); ?>" style="float:none;">
 </div>
 </form>
-<iframe width="350" height="200" src="//www.youtube.com/embed/7Au-mYd7jHE" frameborder="0" allowfullscreen style="position: absolute; left: 310px; top: 60px;"></iframe>
+<iframe width="350" height="200" src="//www.youtube.com/embed/45L6-XnxkOI" frameborder="0" allowfullscreen style="position: absolute; left: 310px; top: 60px;"></iframe>
 <style>
 a {
 color:black;

@@ -373,7 +373,7 @@ var iframe = document.getElementById('supporting_material_iframe');
 </script>
                     <a href="javascript:void(0);" id="youtube_show_sp_mat"><img width="100" height="75" src="<?php echo uri('themes/default/images/add_supporting_material.png');?>" style="position:absolute; left: 22px; top:50px;"></a>
                     <div id="youtube_sup_mat" style="display:none; width:560px;">
-<iframe id="supporting_material_iframe" width="640" height="392" src="//www.youtube.com/embed/SK5LapigmMA" frameborder="0" allowfullscreen></iframe>
+<iframe id="supporting_material_iframe" width="640" height="392" src="//www.youtube.com/embed/AkKWNgjIgyk" frameborder="0" allowfullscreen></iframe>
 </div>
                     <hr style="border:1px dotted #CCCCCC; clear:both;"><br>	
                     <div id="text_supporting">
@@ -421,7 +421,7 @@ var iframe = document.getElementById('insert_image_iframe');
                      * The link added in exhibitFunctions -> exhibit_builder_exhibit_form_item
                      * <a href="#" id="youtube_show_in_im"><img width="100" height="75" src="<?php echo uri('themes/default/images/add_supporting_material.png');?>" style="position:absolute; left: 22px; top:50px;"></a> */ ?>
                     <div id="youtube_in_im" style="display:none; width:560px;">
-<iframe id="insert_image_iframe" width="640" height="392" src="//www.youtube.com/embed/CaZMU2hblj8" frameborder="0" allowfullscreen></iframe>
+<iframe id="insert_image_iframe" width="640" height="392" src="//www.youtube.com/embed/6ck0OkihnLg" frameborder="0" allowfullscreen></iframe>
 </div>                
                 
                 <h2><?php echo __('Page Content'); ?></h2>

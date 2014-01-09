@@ -24,7 +24,7 @@ head(array('bodyclass'=>'index primary-secondary', 'title'=>$pageTitle)); ?>
                     
                 </p>
                 <div style="width:100%; text-align: center;">
-                    <iframe width="640" height="392" src="//www.youtube.com/embed/U56JTiJaKyY" frameborder="0" allowfullscreen></iframe> 
+                    <iframe width="640" height="392" src="//www.youtube.com/embed/PVUkJTh7tf8" frameborder="0" allowfullscreen></iframe> 
                 </div>
                 <dl>
                     <dt class="items"><?php echo link_to('items', null, __('Resources')); ?></dt>
@@ -106,7 +106,7 @@ head(array('bodyclass'=>'index primary-secondary', 'title'=>$pageTitle)); ?>
             <div id="site-meta" class="info-panel">
                 <h2><?php echo __('Guidelines'); ?></h2>
 <!--                <p><a href="http://www.natural-europe.eu/files/Natural_Europe_Pathway_Authoring_Tool_Manual.pdf" target="_blank"><?php //echo __('Natural Europe Manual'); ?></a></p>-->
-			<p><iframe width="190" height="175" src="//www.youtube.com/embed/QFXBLqZve3M" frameborder="0" allowfullscreen></iframe> </p>
+			<p><iframe width="190" height="175" src="//www.youtube.com/embed/GVNfrvyFKpg" frameborder="0" allowfullscreen></iframe> </p>
             </div>
            <?php /*?> <div id="recent-items" class="info-panel">
                 <h2><?php echo __('Recent Items'); ?></h2>
