@@ -15,7 +15,7 @@ class ExhibitTable extends Omeka_Db_Table
     public function applySearchFilters($select, $params)
     {        
         $db = $this->getDb();
-        
+
         foreach($params as $paramName => $paramValue) {
             switch($paramName) {
                 case 'tag':
@@ -53,6 +53,7 @@ class ExhibitTable extends Omeka_Db_Table
                 case 'user':
                     $users = explode(',', $paramValue);
                     $select->joinInner(array('en'=>$db->entities_relation), "e.id = en.relation_id", array());
+                    $select->where('en.type = "Exhibit" ');
                     $forsql = '';
                     foreach ($users as $k => $user) {
                         $forsql .= '(en.entity_id = '.trim($user) .' and en.relationship_id=1) or ';
@@ -61,7 +62,7 @@ class ExhibitTable extends Omeka_Db_Table
                     $select->where($forsql);
         }
         }
-        
+
         new ExhibitPermissions($select);
                 
         return $select;
