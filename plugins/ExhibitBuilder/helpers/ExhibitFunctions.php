@@ -951,6 +951,11 @@ function bypass() {
     $last_record_id = $row["LAST_EXHIBIT_ID"];
     $exec = null;
 
+    //general identifier prefix
+    $general_identifier_prefix = $metadataFile[metadata_schema_resources][identifier_prefix];
+    $general_identifier_prefix = str_replace("'", "", $general_identifier_prefix);
+    $general_indetifier = '' . $general_identifier_prefix . $last_record_id . '';
+
     $metadatarecordSql = "INSERT INTO metadata_element_value (element_hierarchy, value, language_id, vocabulary_record_id, multi, record_id, parent_indexer,is_editable) VALUES (?,?,?,?,?,?,?,?)";
     if ($metadataFile[metadata_schema_resources][element_hierarchy_resource_language] != false) {
         $execmetadatarecordSql = $db->query($metadatarecordSql, array($metadataFile[metadata_schema_resources][element_hierarchy_resource_language], NULL, 'none', $path_language, 1, $last_record_id, 1, 1)); ///metadata language for resource - pathway
@@ -990,7 +995,7 @@ function bypass() {
         }
 
         if ($metadataFile[metadata_schema_resources][element_hierarchy_identifier_entry] != false) {
-            $execmetadatarecordSql = $db->query($metadatarecordSql, array($metadataFile[metadata_schema_resources][element_hierarchy_identifier_entry], $pathtopath, 'none', 1, $last_record_id, 1, 0)); /////identifier entry
+            $execmetadatarecordSql = $db->query($metadatarecordSql, array($metadataFile[metadata_schema_resources][element_hierarchy_identifier_entry], $general_indetifier, 'none', 1, $last_record_id, 1, 0)); /////identifier entry
         }
     }
     if ($metadataFile[metadata_schema_resources][element_hierarchy_metadata_identifier_parent] != false) { ///if medatadata-identifier parent exist
