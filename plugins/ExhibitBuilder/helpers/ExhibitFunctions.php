@@ -1201,6 +1201,35 @@ function sections_return_from_template($template) {
             array('Design', 2, 'design', 1),
             array('Presentation', 3, 'presentation', 1)
         );
+    } elseif ($template == 15) { //training
+        $sections = array(
+            array('Title', 1, 'to-begin-with', 1),
+            array('Training scenario', 2, 'training_scenario', 1),
+            array('Participation', 3, 'participation', 1),
+            array('Training program', 4, 'training_program', 1)
+        );
+    } elseif ($template == 16) { //City to Farm Template
+        $sections = array(
+            array('Εισαγωγή', 1, 'to-begin-with', 1),
+            array('Ομιλίες', 2, 'talks', 1),
+            array('Μαθητεία στον Αγρό', 3, 'participation', 1),
+            array('Ομάδες Συζήτησης', 4, 'groups', 1),
+            array('Περιβαλλοντικός Περίπατος', 5, 'training_program', 1),
+            array('Συμπεράσματα', 6, 'results', 1)
+        );
+    } elseif ($template == 17) { //Food Safety Training
+        $sections = array(
+            array('Job Profile Description', 1, 'to-begin-with', 1),
+            array('Food Safety Standard', 2, 'food-safety-standard', 1),
+            array('Food Process', 3, 'food-process', 1),
+            array('Localization details', 4, 'localization-details', 1)
+        );
+    } elseif ($template == 18) { //Food Standard Training
+        $sections = array(
+            array('Food Standard Principle', 1, 'to-begin-with', 1),
+            array('Food Standard Principle Example', 2, 'food-standard-principle-example', 1),
+            array('Food Standard Principle Localization', 3, 'food-standard-principle-localization', 1)
+        );
     }
 
 
@@ -1595,6 +1624,87 @@ function create_section_pages($v, $last_section_id, $sectionPageSql, $sectionPag
         }
         if ($v[2] == 'presentation') {
             $db->exec($sectionPageSql, array($last_section_id, '1', 'Presentation of Data Product'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 15) { //training
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Title and learning outcomes of the training pathway'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'training_scenario') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Usage scenario for the training pathway'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'participation') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Target audience for the training pathway'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'training_program') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Training structure and content'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 16) { //training
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Εισαγωγικές Ομιλίες'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'talks') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Ομιλίες κατά τη διάρκεια της εκδήλωσης'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'participation') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Εκπαιδευτική δραστηριότητα: "Η μαθητεία στον αγρό"'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'groups') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Δημιουργία ομάδων συζήτησης & συμπεράσματα'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'training_program') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Περιβαλλοντικός περίπατος στο μονοπάτι των "Φαρμακίδων"'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'results') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Συμπεράσματα από την εκδήλωση & μελλοντικές δράσεις'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 17) { //Food Safety Training
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Training scenario'));
+            $db->exec($sectionPageTextSql);
+            
+            $db->exec($sectionPageSql, array($last_section_id, '2', 'Persona'));
+            $db->exec($sectionPageTextSql);
+            
+            $db->exec($sectionPageSql, array($last_section_id, '3', 'Competencies for trainees'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'food-safety-standard') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Overview'));
+            $db->exec($sectionPageTextSql);
+            
+            $db->exec($sectionPageSql, array($last_section_id, '2', 'Food Standard principles'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'food-process') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Food Process'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'localization-details') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Localization details'));
+            $db->exec($sectionPageTextSql);
+        }
+    } elseif ($template == 18) { //Food Standard Training
+        if ($v[2] == 'to-begin-with') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Food Standard Principle'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'food-standard-principle-example') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Food Standard Principle Example'));
+            $db->exec($sectionPageTextSql);
+        }
+        if ($v[2] == 'food-standard-principle-localization') {
+            $db->exec($sectionPageSql, array($last_section_id, '1', 'Food Standard Principle Localization'));
             $db->exec($sectionPageTextSql);
         }
     }

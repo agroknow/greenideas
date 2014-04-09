@@ -181,7 +181,7 @@ if (empty($errors)) { //if no errors
     $output .= '</metadata>' . "\n";
 
 
-    $sqlehibitsections = "select * from omeka_sections where exhibit_id=? ";
+    $sqlehibitsections = "select * from omeka_sections where exhibit_id=? ORDER BY `order` ASC";
 //echo $sqlmetadatarecord; //break;
     $ehibitsections = $db->query($sqlehibitsections, array($omekaitem['id']));
     $sections = $ehibitsections->fetchAll();
