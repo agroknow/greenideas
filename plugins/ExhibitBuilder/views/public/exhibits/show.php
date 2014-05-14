@@ -67,7 +67,8 @@
             </div>
         </nav>
 
-        <section class="inner languages">
+        <section class="inner" style="position: relative;">
+            <section class="languages">
 
 <!--			<select id="languages">
         <option value="">-- Select Language --</option>
@@ -80,8 +81,9 @@
         <option value="hu">Magyar</option>
         <option value="fi">Suomi</option>
 </select>-->
-            <?php echo language_switcher(); ?>
+                <?php echo language_switcher(); ?>
 
+            </section>
         </section>
 
         <section class="inner slideshow">
