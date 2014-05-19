@@ -133,7 +133,8 @@
                     <ul></ul>
                     <div id="tabs_container"></div>
                 </div>
-
+                <!--event to scroll top tabs page-->
+                <a href="#" id="scroll_to_top" class="image-scroll-to-tabs"> </a>
 <!--               Hide metadata elements -->
 <!--<section class="mdblock clearfix">
 
@@ -186,6 +187,13 @@
         <script src="<?php echo uri('plugins/ExhibitBuilder/views/public/exhibits/'); ?>javascript/jquery.fancybox.js"></script>
         <script src="<?php echo uri('plugins/ExhibitBuilder/views/public/exhibits/'); ?>javascript/vcard.js"></script>
         <script src="<?php echo uri('plugins/ExhibitBuilder/views/public/exhibits/'); ?>javascript/purl.js"></script>
+        <!--event to scroll top tabs page-->
+        <script type="text/javascript">
+                    
+                    $("#scroll_to_top").click(function(e){
+                        $('html, body').animate({scrollTop:$('#tabs').offset().top - 20}, 'slow');
+                    })
+        </script>
         <script>
 
                 ;
@@ -570,15 +578,15 @@
                                         if (vo.file != undefined) {
 
                                             var img = (vo.file.thumbs != undefined) ? vo.file.thumbs.full : vo.file.metadata.lom.technical.location.value;
-                                            var tmpImg = "http://images.weserv.nl/?url=" + img.replace("http://", "") + "&w=235&h=200&t=square&a=t";
+                                            var tmpImg = "http://images.weserv.nl/?url=" + img.replace("http://", "") + "&w=300&h=220&t=square&a=t";
                                             var imgInText = setLightBox(vo.file, 390);
 
                                             if (!galIsOpened) {
                                                 returnString += '<aside class="secgal clearfix">';
                                                 galIsOpened = true;
                                             }
-
-                                            returnString += '<a class="lbtrigger" href="#inline' + imgInText.id + '"><img height="200" src="' + tmpImg + '" onerror="this.setAttribute(\'src\',this.getAttribute(\'data-img\'));this.setAttribute(\'height\',\'200\');this.setAttribute(\'onerror\',\'null\');" data-img="' + img + '" /><span>' + vo.file.metadata.lom.general.title.value + '</span></a>' + imgInText.lb; // thumb
+                                                
+                                            returnString += '<div class="lbtriggerdiv"><a class="lbtrigger" href="#inline' + imgInText.id + '"><img height="220" src="' + tmpImg + '" onerror="this.setAttribute(\'src\',this.getAttribute(\'data-img\'));this.setAttribute(\'height\',\'220\');this.setAttribute(\'onerror\',\'null\');" data-img="' + img + '" /><span>' + vo.file.metadata.lom.general.title.value + '</span></a></div>' + imgInText.lb; // thumb
 
                                             //  get images for gallery
                                             var gTmp = {};
